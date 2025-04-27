@@ -28,6 +28,9 @@ android {
     namespace 'com.dsi.ar_flutter_plugin'
     compileSdkVersion 35
 
+    kotlinOptions {
+        jvmTarget = "17"
+    }
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
